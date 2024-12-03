@@ -24,5 +24,3 @@ As I progress, I'll update this repository with detailed write-ups for each chal
 ## About TryHackMe Advent of Cyber
 
 The **Advent of Cyber** is an annual event hosted by TryHackMe, designed to make learning cybersecurity accessible and enjoyable. Each day, participants face a new challenge, ranging from beginner-friendly tasks to intermediate exercises that simulate real-world scenarios. It's a great opportunity to enhance skills, learn new techniques, and celebrate the holiday season with the cybersecurity community.
-
-Stay tuned as I tackle each day's challenge and share the journey with detailed insights and solutions!
