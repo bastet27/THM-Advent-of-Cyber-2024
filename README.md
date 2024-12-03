@@ -14,7 +14,7 @@ As I progress, I'll update this repository with detailed write-ups for each chal
 
 - [Day 1: OPSEC Challenge](day1.md)
 - [Day 2: Log analysis](Day2.md)
-- [Day 3: Coming Soon!](Day3.md)
+- [Day 3: Log analysis](Day3.md)
 - [Day 4: Coming Soon!](Day4.md)
 - [Day 5: Coming Soon!](Day5.md)
 - [More Days to Come!](#)
