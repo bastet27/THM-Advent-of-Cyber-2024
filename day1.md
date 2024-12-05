@@ -128,8 +128,8 @@ Some of the key tools and steps I used:
 Day 1 of the Advent of Cyber series kicked off with a solid introduction to metadata analysis, malicious script investigation, and tracking down an attacker’s identity. It was a great mix of technical analysis and detective work, and I’m excited to see what challenges Day 2 will bring!
 
 - [Main Page](README.md)
-- [Day 2: Coming Soon!](Day2.md)
-- [Day 3: Coming Soon!](Day3.md)
-- [Day 4: Coming Soon!](Day4.md)
+- [Day 2: Log Analysis](Day2.md)
+- [Day 3: Log Analysis](Day3.md)
+- [Day 4: Atomic Red Team](day4.md)
 - [Day 5: Coming Soon!](Day5.md)
 - [More Days to Come!](#)
