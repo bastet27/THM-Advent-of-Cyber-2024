@@ -1,4 +1,4 @@
-# 🎄 TryHackMe Advent of Cyber 2024 – Day 3: Log Analysis Challenge
+# 🎄 TryHackMe Advent of Cyber 2024 – Day 3: Log Analysis
 
 
 ## Challenge Overview 🎅
@@ -107,7 +107,7 @@ This task showed the importance of seeing things from both perspectives: defendi
 
 - [Main Page](README.md)
 - [Day 1: OPSEC Challenge](day1.md)
-- [Day 2: Log Analysis](Day2.md)
-- [Day 4: Coming Soon!](day4.md)
+- [Day 2: Log Analysis](day2.md)
+- [Day 4: Atomic Red Team](day4.md)
 - [Day 5: Coming Soon!](day5.md)
 - [More Days to Come!](#)
