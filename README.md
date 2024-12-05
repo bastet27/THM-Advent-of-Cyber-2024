@@ -11,7 +11,7 @@ As I work through the challenges, I'll be updating this repository with detailed
 - [Day 1: OPSEC Challenge](day1.md)
 - [Day 2: Log Analysis](Day2.md)
 - [Day 3: Log Analysis](Day3.md)
-- [Day 4: Coming Soon!](Day4.md)
+- [Day 4: Atomic Red Team](day4.md)
 - [Day 5: Coming Soon!](Day5.md)
 - [More Days to Come!](#)
 
