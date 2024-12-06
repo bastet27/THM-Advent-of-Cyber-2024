@@ -117,5 +117,5 @@ This challenge highlighted the importance of emulating real-world attack scenari
 - [Day 1: OPSEC Challenge](day1.md)  
 - [Day 2: Log Analysis](day2.md)  
 - [Day 3: Log Analysis](day3.md)
-- [Day 5: Coming Soon!](day5.md)
+- [Day 5: XXE](day5.md)
 - [More Days to Come!](#)
