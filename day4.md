@@ -118,4 +118,5 @@ This challenge highlighted the importance of emulating real-world attack scenari
 - [Day 2: Log Analysis](day2.md)  
 - [Day 3: Log Analysis](day3.md)
 - [Day 5: XXE](day5.md)
+- [Day 6: Sandboxes](day6.md)
 - [More Days to Come!](#)
