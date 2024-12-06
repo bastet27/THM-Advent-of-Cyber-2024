@@ -150,6 +150,6 @@ By addressing these lessons, developers and organizations can prevent vulnerabil
 - [Day 2: Log Analysis](day2.md)
 - [Day 3: Log Analysis](day3.md)
 - [Day 4: Atomic Red Team](day4.md)
-- [Day 6: Coming Soon!](day6.md)
+- [Day 6: Sandboxes](day6.md)
 - [More Days to Come!](README.md)
 ```
