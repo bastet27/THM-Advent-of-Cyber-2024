@@ -116,4 +116,5 @@ This challenge emphasized the importance of log analysis and thoughtful investig
 - [Day 3: Log Analysis](day3.md)
 - [Day 4: Atomic Red Team](day4.md)
 - [Day 5: XXE](day5.md)
+- [Day 6: Sandboxes](day6.md)
 - [More Days to Come!](#)
