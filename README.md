@@ -12,7 +12,8 @@ As I work through the challenges, I'll be updating this repository with detailed
 - [Day 2: Log Analysis](Day2.md)
 - [Day 3: Log Analysis](Day3.md)
 - [Day 4: Atomic Red Team](day4.md)
-- [Day 5: Coming Soon!](Day5.md)
+- [Day 5: XXE](day5.md)
+- [Day 6: Coming Soon!](#)
 - [More Days to Come!](#)
 
 ## About TryHackMe Advent of Cyber 🎄
