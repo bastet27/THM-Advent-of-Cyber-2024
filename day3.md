@@ -109,5 +109,5 @@ This task showed the importance of seeing things from both perspectives: defendi
 - [Day 1: OPSEC Challenge](day1.md)
 - [Day 2: Log Analysis](day2.md)
 - [Day 4: Atomic Red Team](day4.md)
-- [Day 5: Coming Soon!](day5.md)
+- [Day 5: XXE](day5.md)
 - [More Days to Come!](#)
