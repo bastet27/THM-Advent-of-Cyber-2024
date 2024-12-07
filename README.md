@@ -14,7 +14,7 @@ As I work through the challenges, I'll be updating this repository with detailed
 - [Day 4: Atomic Red Team](day4.md)
 - [Day 5: XXE](day5.md)
 - [Day 6: Sandboxes](day6.md)
-- [Day 6: AWS Sandboxes](day7.md)
+- [Day 7: AWS Sandboxes](day7.md)
 - [More Days to Come!](#)
 
 ## About TryHackMe Advent of Cyber 🎄
