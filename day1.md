@@ -133,4 +133,5 @@ Day 1 of the Advent of Cyber series kicked off with a solid introduction to meta
 - [Day 4: Atomic Red Team](day4.md)
 - [Day 5: XXE](day5.md)
 - [Day 6: Sandboxes](day6.md)
+- [Day 7: AWS Sandboxes](day7.md)
 - [More Days to Come!](#)
