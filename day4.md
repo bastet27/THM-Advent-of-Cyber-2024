@@ -119,4 +119,5 @@ This challenge highlighted the importance of emulating real-world attack scenari
 - [Day 3: Log Analysis](day3.md)
 - [Day 5: XXE](day5.md)
 - [Day 6: Sandboxes](day6.md)
+- [Day 7: AWS Sandboxes](day7.md)
 - [More Days to Come!](#)
