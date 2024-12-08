@@ -134,5 +134,6 @@ Day 2 demonstrated the importance of log analysis in identifying suspicious acti
 - [Day 5: XXE Exploitation](day5.md)
 - [Day 6: Sandboxes](day6.md)
 - [Day 7: AWS Log Analysis](day7.md)
+- [Day 8: Shellcodes](day8.md)
 - [More Days to Come!](#)
 ```
