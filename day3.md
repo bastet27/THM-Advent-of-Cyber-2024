@@ -118,4 +118,5 @@ Day 3 highlighted the importance of both offensive and defensive skills in cyber
 - [Day 5: XXE Exploitation](day5.md)
 - [Day 6: Sandboxes](day6.md)
 - [Day 7: AWS Log Analysis](day7.md)
+- [Day 8: Shellcodes](day8.md)
 - [More Days to Come!](#)
