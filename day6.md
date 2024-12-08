@@ -86,6 +86,7 @@ Day 6 reinforced the value of sandbox environments for safe malware analysis. By
 - [Day 3: Log Analysis](day3.md)  
 - [Day 4: Atomic Red Team](day4.md)  
 - [Day 5: XXE Exploitation](day5.md)  
-- **[Day 6: Sandboxes](day6.md)**  
-- [Day 7: AWS Sandboxes](day7.md)  
+- **Day 6: Sandboxes**  
+- [Day 7: AWS Sandboxes](day7.md)
+- [Day 8: Shellcodes](day8.md)
 - [More Days to Come!](README.md)  
