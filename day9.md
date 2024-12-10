@@ -123,5 +123,5 @@ Day 9 was a fantastic exercise in **GRC principles** and practical risk manageme
 - [Day 6: Sandboxes](day6.md)  
 - [Day 7: AWS Log Analysis](day7.md)  
 - [Day 8: Shellcode Execution](day8.md)  
-- [Day 9: Risk Assessment Challenge](day9.md)  
+- **Day 9: Risk Assessment Challenge**
 - [More Days to Come!](README.md)
