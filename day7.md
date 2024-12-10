@@ -115,4 +115,5 @@ Day 7 reinforced the importance of log analysis and correlation in cloud environ
 - [Day 6: Sandboxes](day6.md)  
 - **Day 7: AWS Log Analysis**
 - [Day 8: Shellcodes](day8.md)
+- [Day 9: Risk Assessment](day9.md) 
 - [More Days to Come!](README.md)  
