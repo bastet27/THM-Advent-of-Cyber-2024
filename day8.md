@@ -178,4 +178,5 @@ This challenge provided hands-on experience with shellcode generation, reverse s
 - [Day 6: Sandboxes](day6.md)
 - [Day 7: AWS Log Analysis](day7.md)
 - **Day 8: Shellcodes and Reverse Shells**
+- [Day 9: Risk Assessment](day9.md) 
 - [More Days to Come!](README.md)
