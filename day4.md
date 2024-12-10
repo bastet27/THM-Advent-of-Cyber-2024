@@ -110,4 +110,5 @@ Day 4 showcased the value of adversary emulation in identifying and addressing d
 - [Day 6: Sandboxes](day6.md)  
 - [Day 7: AWS Log Analysis](day7.md)
 - [Day 8: Shellcodes](day8.md)
+- [Day 9: Risk Assessment](day9.md) 
 - [More Days to Come!](#)
