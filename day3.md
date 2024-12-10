@@ -119,4 +119,5 @@ Day 3 highlighted the importance of both offensive and defensive skills in cyber
 - [Day 6: Sandboxes](day6.md)
 - [Day 7: AWS Log Analysis](day7.md)
 - [Day 8: Shellcodes](day8.md)
+- [Day 9: Risk Assessment](day9.md) 
 - [More Days to Come!](#)
