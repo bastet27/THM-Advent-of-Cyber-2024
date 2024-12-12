@@ -113,7 +113,7 @@ Day 3 highlighted the importance of both offensive and defensive skills in cyber
 - [Main Page](README.md)
 - [Day 1: OPSEC Challenge](day1.md)
 - [Day 2: Log Analysis Challenge](day2.md)
-- **[Day 3: Log Analysis](day3.md)**
+- **Day 3: Log Analysis**
 - [Day 4: Atomic Red Team](day4.md)
 - [Day 5: XXE Exploitation](day5.md)
 - [Day 6: Sandboxes](day6.md)
