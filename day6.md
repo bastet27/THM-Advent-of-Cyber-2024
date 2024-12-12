@@ -90,6 +90,6 @@ Day 6 reinforced the value of sandbox environments for safe malware analysis. By
 - [Day 7: AWS Sandboxes](day7.md)
 - [Day 8: Shellcodes](day8.md)
 - [Day 9: Risk Assessment](day9.md)
-- [Day 10: Phishing](day10.md)
-- [Day 11: Wi-Fi Attacks](day11.md)
+- [Day 10: Phishing](day_10.md)
+- [Day 11: Wi-Fi Attacks](day_11.md)
 - [More Days to Come!](README.md)  
