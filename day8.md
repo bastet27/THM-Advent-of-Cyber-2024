@@ -179,6 +179,6 @@ This challenge provided hands-on experience with shellcode generation, reverse s
 - [Day 7: AWS Log Analysis](day7.md)
 - **Day 8: Shellcodes and Reverse Shells**
 - [Day 9: Risk Assessment](day9.md)
-- [Day 10: Phishing](day10.md)
-- [Day 11: Wi-Fi Attacks](day11.md)
+- [Day 10: Phishing](day_10.md)
+- [Day 11: Wi-Fi Attacks](day_11.md)
 - [More Days to Come!](README.md)
