@@ -124,4 +124,6 @@ Day 9 was a fantastic exercise in **GRC principles** and practical risk manageme
 - [Day 7: AWS Log Analysis](day7.md)  
 - [Day 8: Shellcode Execution](day8.md)  
 - **Day 9: Risk Assessment Challenge**
+- [Day 10: Phishing](day10.md)
+- [Day 11: Wi-Fi Attacks](day11.md)
 - [More Days to Come!](README.md)
