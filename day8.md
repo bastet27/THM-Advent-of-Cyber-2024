@@ -181,4 +181,6 @@ This challenge provided hands-on experience with shellcode generation, reverse s
 - [Day 9: Risk Assessment](day9.md)
 - [Day 10: Phishing](day_10.md)
 - [Day 11: Wi-Fi Attacks](day_11.md)
+- [Day 12: Web Timing Attacks](day_12.md)
+- [Day 13: Coming Soon!](day_13.md)
 - [More Days to Come!](README.md)
