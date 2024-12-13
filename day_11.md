@@ -136,5 +136,6 @@ This challenge reinforces the importance of robust wireless security practices. 
 - [Day 9: GRC](day9.md)  
 - [Day 10: Phishing](day_10.md)  
 - **Day 11: Wi-Fi Attacks**
-- [Day_12: Web Timing Attacks](day_12.md)
+- [Day 12: Web Timing Attacks](day_12.md)
+- [Day 13: Coming Soon!](day_13.md)
 - [More Days to Come!](#)
