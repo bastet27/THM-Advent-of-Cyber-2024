@@ -1,12 +1,12 @@
 # 🎄 TryHackMe Advent of Cyber 2024 – Day 17: Log Analysis
 
-## Objectives  
+## Objectives 🎯
 - Analyze logs to identify suspicious activity.  
 - Extract fields from unstructured log data.  
 - Investigate unauthorized access and deletion of CCTV footage.  
 - Use Splunk to parse, filter, and correlate log data for detailed analysis.  
 
-## Steps  
+## Steps 🚀
 
 ### Step 1: Analyze All Logs in `cctv_feed`
 1. Use Splunk to load the `cctv_feed` data.
@@ -47,29 +47,29 @@
    index=cctv_feed *rij5uu4gt204q0d3eb7jj86okt*
    ```
 
-## Key Findings  
+## Key Findings 🔑
 
 1. **Suspicious Activity**: Multiple login failures followed by a successful login for a suspicious user.
 2. **Deletion Events**: Logs confirmed the deletion of CCTV footage.
 3. **Correlated Evidence**: The same `Session_id` linked to suspicious activities in web logs and CCTV feed.
 
-## Lessons Learned  
+## Lessons Learned 🌟
 
 1. **Importance of Log Parsing**: Structured data aids faster investigation.
 2. **Field Extraction in SIEM**: Accurate regex ensures comprehensive log coverage.
 3. **Session Correlation**: Linking events across datasets is crucial for identifying attackers.
 
-### Tools and Techniques  
+## Tools and Techniques 🛠️
 
 - **Splunk**: For log ingestion, searching, and visualization.
 - **Regex**: For custom field extraction.
 - **Search Processing Language (SPL)**: For data filtering and correlation.
 
 
-## Final Thoughts  
+## Final Thoughts 🎁
 This task reinforced the importance of structured log analysis and correlation across datasets. It also demonstrated the need for enabling audit trails and regular monitoring to prevent unauthorized access.
 
-### Answers  
+### Answers ✅
 
 1. **How many logs were captured associated with the successful login?**  
    **Answer:** `642`
