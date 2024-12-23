@@ -81,17 +81,23 @@ Day 6 reinforced the value of sandbox environments for safe malware analysis. By
 
 ## Table of Contents 📚
 
-- [Day 1: OPSEC Challenge](day1.md)  
-- [Day 2: Log Analysis](day2.md)  
-- [Day 3: Log Analysis](day3.md)  
-- [Day 4: Atomic Red Team](day4.md)  
-- [Day 5: XXE Exploitation](day5.md)  
-- **Day 6: Sandboxes**  
+- [Main Page](README.md)
+- [Day 1: OPSEC Challenge](day1.md)
+- [Day 2: Log Analysis](day2.md)
+- [Day 3: Log Analysis](day3.md)
+- [Day 4: Atomic Red Team](day4.md)
+- [Day 5: XXE](day5.md)
+- **Day 6: Sandboxes**
 - [Day 7: AWS Sandboxes](day7.md)
 - [Day 8: Shellcodes](day8.md)
 - [Day 9: Risk Assessment](day9.md)
 - [Day 10: Phishing](day_10.md)
 - [Day 11: Wi-Fi Attacks](day_11.md)
 - [Day 12: Web Timing Attacks](day_12.md)
-- [Day 13: Coming Soon!](day_13.md)
-- [More Days to Come!](README.md)  
+- [Day 13: WebSockets](day_13.md)
+- [Day 14: Certificate Mismanagement](day_14.md)
+- [Day 15: Active Directory](day_15.md)
+- [Day 16: Azure Exploitation](day_16.md)
+- [Day 17: Log Analysis](day_17.md)
+- [Day 18: Prompt Injection](day_18.md)
+- [More Days to Come!](#)
