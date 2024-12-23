@@ -90,7 +90,7 @@
 2. **Default Credentials Are Dangerous:** The admin account used weak credentials (`admin/admin`), making it an easy target.
 3. **Defense Against Exploits:** Proper input validation and access controls could have mitigated this attack.
 
-## Tools and Techniques 🛠️
+### Tools and Techniques 🛠️
 
 1. **[Elastic SIEM](https://www.elastic.co/security/siem):** Used to investigate web server logs and identify attacker activity.  
 2. **Text Editor:** Created the PHP web shell to exploit the vulnerability.  
