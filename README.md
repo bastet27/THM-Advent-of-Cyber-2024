@@ -20,7 +20,12 @@ As I work through the challenges, I'll be updating this repository with detailed
 - [Day 10: Phishing](day_10.md)
 - [Day 11: Wi-Fi Attacks](day_11.md)
 - [Day 12: Web Timing Attacks](day_12.md)
-- [Day 13: Coming Soon!](day_13.md)
+- [Day 13: WebSockets](day_13.md)
+- [Day 14: Certificate Mismanagement](day_14.md)
+- [Day 15: Active Directory](day_15.md)
+- [Day 16: Azure Exploitation](day_16.md)
+- [Day 17: Log Analysis](day_17.md)
+- [Day 18: Prompt Injection](day_18.md)
 - [More Days to Come!](#)
 
 ## About TryHackMe Advent of Cyber 🎄
