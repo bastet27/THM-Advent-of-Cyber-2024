@@ -36,7 +36,7 @@ Day 16 explores an Azure tenant breach investigation and emphasizes the importan
    az ad group list
    ```
    - Identify the **Secret Recovery Group** and its ID.
-   - **Answer**: `7d96660a-02e1–4112–9515–1762d0cb66b7`
+   - **Answer**: `7d96660a-02e1-4112-9515-1762d0cb66b7`
 
 3. **List Group Members**:
    ```
@@ -79,7 +79,7 @@ Day 16 explores an Azure tenant breach investigation and emphasizes the importan
    **Answer**: `R3c0v3r_s3cr3ts!`
 
 2. **What is the group ID of the Secret Recovery Group?**  
-   **Answer**: `7d96660a-02e1–4112–9515–1762d0cb66b7`
+   **Answer**: `7d96660a-02e1-4112-9515-1762d0cb66b7`
 
 3. **What is the name of the vault secret?**  
    **Answer**: `aoc2024`
