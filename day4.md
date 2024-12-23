@@ -73,7 +73,7 @@
 - Monitor suspicious PowerShell activity (`Invoke-WebRequest` is a red flag).
 - Keep logs from tools like Sysmon centralized for analysis.
 
-## Tools and Techniques 🛠️
+### Tools and Techniques 🛠️
 
 1. **[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team):** Conducted tests emulating adversarial techniques.  
 2. **[MITRE ATT&CK](https://attack.mitre.org/):** Referenced techniques and sub-techniques for detailed analysis.  
