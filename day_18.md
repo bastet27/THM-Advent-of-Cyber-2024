@@ -1,11 +1,11 @@
 # 🎄 TryHackMe Advent of Cyber 2024 – Day 18: Prompt Injection
 
-## Objectives  
+## Objectives 🎯
 - Understand the fundamentals of AI chatbots and their functionality.  
 - Learn about vulnerabilities in AI chatbots, including prompt injection attacks.  
 - Perform a prompt injection attack leading to a reverse shell.  
 
-## Steps  
+## Steps 🚀
 
 ### Step 1: Understanding AI Chatbots  
 1. AI chatbots function based on neural networks trained on extensive datasets.  
@@ -47,27 +47,27 @@
    ```
 3. Confirm the reverse shell connection on the listener.  
 
-## Key Findings  
+## Key Findings 🔑
 
 1. **System Prompt Vulnerability**: WareWise lacks adequate input sanitization, allowing malicious commands.  
 2. **Reverse Shell Achieved**: Exploiting the AI assistant resulted in full command execution on the host machine.  
 
-## Lessons Learned  
+## Lessons Learned 🌟
 
 1. **AI Security**: Input validation and robust prompt management are critical to prevent exploitation.  
 2. **Blind RCE Testing**: Using indirect feedback (e.g., ICMP) helps confirm vulnerabilities.  
 3. **Prompt Injection Risks**: Misconfigured chatbots can be weaponized for malicious purposes.  
 
-### Tools and Techniques  
+### Tools and Techniques 🛠️
 
 - **tcpdump**: For network packet analysis.  
 - **Netcat (nc)**: For reverse shell connections.  
 - **Prompt Injection**: Crafting inputs to override system prompts.  
 
-## Final Thoughts  
+## Final Thoughts 🎁
 This task highlights the risks associated with poorly secured AI models. By understanding prompt injection vulnerabilities, we can build more secure systems and prevent malicious exploits.  
 
-### Answers  
+### Answers ✅
 
 1. **What is the technical term for a set of rules and instructions given to a chatbot?**  
    **Answer:** `system prompt`
@@ -84,8 +84,9 @@ This task highlights the risks associated with poorly secured AI models. By unde
 5. **If you liked today's task, you can practice your skills by prompt injecting "Van Chatty" (Day 1) of Advent of Cyber 2023.**  
    **Answer:** No answer needed.
 
-## Table of Contents
+## Table of Contents 📚
 
+- [Main Page](README.md)
 - [Day 1: OPSEC Challenge](day1.md)
 - [Day 2: Log Analysis](day2.md)
 - [Day 3: Log Analysis](day3.md)
@@ -98,6 +99,10 @@ This task highlights the risks associated with poorly secured AI models. By unde
 - [Day 10: Phishing](day_10.md)
 - [Day 11: Wi-Fi Attacks](day_11.md)
 - [Day 12: Web Timing Attacks](day_12.md)
-- [Day 13: Coming Soon!](day_13.md)
+- [Day 13: WebSockets](day_13.md)
+- [Day 14: Certificate Mismanagement](day_14.md)
+- [Day 15: Active Directory](day_15.md)
+- [Day 16: Azure Exploitation](day_16.md)
+- [Day 17: Log Analysis](day_17.md)
 - **Day 18: Prompt Injection**
 - [More Days to Come!](#)
