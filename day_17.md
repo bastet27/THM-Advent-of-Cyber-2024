@@ -80,22 +80,25 @@ This task reinforced the importance of structured log analysis and correlation a
 3. **What is the name of the attacker found in the logs, who deleted the CCTV footage?**  
    **Answer:** `mmalware`
 
-## Table of Contents 📑
+## Table of Contents 📚
 
-[Day 1: Title](day1.md)  
-[Day 2: Title](day2.md)  
-[Day 3: Title](day3.md)  
-[Day 4: Title](day4.md)  
-[Day 5: Title](day5.md)  
-[Day 6: Title](day6.md)  
-[Day 7: Title](day7.md)  
-[Day 8: Title](day8.md)  
-[Day 9: Title](day9.md)  
-[Day_10: Title](day_10.md)  
-[Day_11: Title](day_11.md)  
-[Day_12: Title](day_12.md)  
-[Day_13: Title](day_13.md)  
-[Day_14: Title](day_14.md)  
-[Day_15: Title](day_15.md)  
-[Day_16: Title](day_16.md)  
-**Day_17: Log Analysis** 
+- [Main Page](README.md)
+- [Day 1: OPSEC Challenge](day1.md)
+- [Day 2: Log Analysis](day2.md)
+- [Day 3: Log Analysis](day3.md)
+- [Day 4: Atomic Red Team](day4.md)
+- [Day 5: XXE](day5.md)
+- [Day 6: Sandboxes](day6.md)
+- [Day 7: AWS Sandboxes](day7.md)
+- [Day 8: Shellcodes](day8.md)
+- [Day 9: Risk Assessment](day9.md)
+- [Day 10: Phishing](day_10.md)
+- [Day 11: Wi-Fi Attacks](day_11.md)
+- [Day 12: Web Timing Attacks](day_12.md)
+- [Day 13: WebSockets](day_13.md)
+- [Day 14: Certificate Mismanagement](day_14.md)
+- [Day 15: Active Directory](day_15.md)
+- [Day 16: Azure Exploitation](day_16.md)
+- **Day 17: Log Analysis**
+- [Day 18: Prompt Injection](day_18.md)
+- [More Days to Come!](#)
