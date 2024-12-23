@@ -90,7 +90,7 @@
 3. **Regular Audits:**  
    - Review and test applications for vulnerabilities prior to deployment.
 
-## Tools and Techniques 🛠️
+### Tools and Techniques 🛠️
 
 1. **[Burp Suite](https://portswigger.net/burp):** Intercepted and modified HTTP requests to test for XXE.  
 2. **XML Payloads:** Exploited vulnerabilities using custom XML with external entities.  
