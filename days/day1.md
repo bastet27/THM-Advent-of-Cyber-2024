@@ -84,16 +84,17 @@ Day 1 was an excellent introduction to metadata analysis and attacker investigat
 
 ## Table of Contents 📚
 
+## Table of Contents 📚
+
 | Day  | Challenge                              | Day  | Challenge                               | Day  | Challenge                               |
 |------|----------------------------------------|------|-----------------------------------------|------|-----------------------------------------|
-| 📖  | [README](README.md)                    | 11   | [Wi-Fi Attacks](day_11.md)             | 22   | [Kubernetes DFIR](day_22.md)            |
-| 1    | **OPSEC Challenge**                    | 12   | [Web Timing Attacks](day_12.md)        | 23   | [Hash Cracking](day_23.md)              |
-| 2    | [Log Analysis](day2.md)                | 13   | [WebSockets](day_13.md)                | 24   | [Hash Cracking](day_23.md)              |
-| 3    | [Log Analysis](day3.md)                | 14   | [Certificate Mismanagement](day_14.md) | 25   |                                         |
-| 4    | [Atomic Red Team](day4.md)             | 15   | [Active Directory](day_15.md)          | 26   |                                         |
-| 5    | [XXE](day5.md)                         | 16   | [Azure Exploitation](day_16.md)        | 27   |                                         |
-| 6    | [Sandboxes](day6.md)                   | 17   | [Log Analysis](day_17.md)              | 28   |                                         |
-| 7    | [AWS Sandboxes](day7.md)               | 18   | [Prompt Injection](day_18.md)          | 29   |                                         |
-| 8    | [Shellcodes](day8.md)                  | 19   | [Game Hacking](day_19.md)              | 30   |                                         |
-| 9    | [Risk Assessment](day9.md)             | 20   | [Traffic Analysis](day_20.md)          | 31   |                                         |
-| 10   | [Phishing](day_10.md)                  | 21   | [Reverse Engineering](day_21.md)       | ☃️  | 🎄🎅🎁✨                              |
+| 📖  | [README](../README.md)                 | 9    | [Risk Assessment](days/day9.md)         | 17   | [Log Analysis](days/day17.md)           |
+| 1    | **OPSEC Challenge**                    | 10   | [Phishing](days/day10.md)               | 18   | [Prompt Injection](days/day18.md)       |
+| 2    | [Log Analysis](days/day2.md)           | 11   | [Wi-Fi Attacks](days/day11.md)          | 19   | [Game Hacking](days/day19.md)           |
+| 3    | [Log Analysis](days/day3.md)           | 12   | [Web Timing Attacks](days/day12.md)     | 20   | [Traffic Analysis](days/day20.md)       |
+| 4    | [Atomic Red Team](days/day4.md)        | 13   | [WebSockets](days/day13.md)             | 21   | [Reverse Engineering](days/day21.md)    |
+| 5    | [XXE](days/day5.md)                    | 14   | [Certificate Mismanagement](days/day14.md)| 22  | [Kubernetes DFIR](days/day22.md)        |
+| 6    | [Sandboxes](days/day6.md)              | 15   | [Active Directory](days/day15.md)       | 23   | [Hash Cracking](days/day23.md)          |
+| 7    | [AWS Sandboxes](days/day7.md)          | 16   | [Azure Exploitation](days/day16.md)     | 24   | [Communication Protocols](days/day24.md)|
+| 8    | [Shellcodes](days/day8.md)             |      | **Merry SOC-mas!** 🎁✨☃️              |      | 🎄✨🎅                                |
+
