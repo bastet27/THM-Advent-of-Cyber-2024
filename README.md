@@ -12,7 +12,7 @@ The Advent of Cyber is an annual event hosted by TryHackMe, designed to make lea
 
 | Day  | Challenge                              | Day  | Challenge                               | Day  | Challenge                               |
 |------|----------------------------------------|------|-----------------------------------------|------|-----------------------------------------|
-| 📖  | [README](../README.md)                 | 9    | [Risk Assessment](days/day9.md)         | 17   | [Log Analysis](days/day_17.md)          |
+| 📖  | **README**                             | 9    | [Risk Assessment](days/day9.md)         | 17   | [Log Analysis](days/day_17.md)          |
 | 1    | [OPSEC Challenge](days/day1.md)        | 10   | [Phishing](days/day_10.md)              | 18   | [Prompt Injection](days/day_18.md)      |
 | 2    | [Log Analysis](days/day2.md)           | 11   | [Wi-Fi Attacks](days/day_11.md)         | 19   | [Game Hacking](days/day_19.md)          |
 | 3    | [Log Analysis](days/day3.md)           | 12   | [Web Timing Attacks](days/day_12.md)    | 20   | [Traffic Analysis](days/day_20.md)      |
