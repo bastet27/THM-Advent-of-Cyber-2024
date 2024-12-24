@@ -128,12 +128,12 @@ Day 2 demonstrated the importance of log analysis in identifying suspicious acti
 
 | Day  | Challenge                              | Day  | Challenge                               | Day  | Challenge                               |
 |------|----------------------------------------|------|-----------------------------------------|------|-----------------------------------------|
-| 📖  | [README](../README.md)                 | 9    | [Risk Assessment](days/day9.md)         | 17   | [Log Analysis](days/day17.md)           |
-| 1    | [OPSEC Challenge](days/day1.md)        | 10   | [Phishing](days/day10.md)               | 18   | [Prompt Injection](days/day18.md)       |
-| 2    | **Log Analysis**                       | 11   | [Wi-Fi Attacks](days/day11.md)          | 19   | [Game Hacking](days/day19.md)           |
-| 3    | [Log Analysis](days/day3.md)           | 12   | [Web Timing Attacks](days/day12.md)     | 20   | [Traffic Analysis](days/day20.md)       |
-| 4    | [Atomic Red Team](days/day4.md)        | 13   | [WebSockets](days/day13.md)             | 21   | [Reverse Engineering](days/day21.md)    |
-| 5    | [XXE](days/day5.md)                    | 14   | [Certificate Mismanagement](days/day14.md)| 22  | [Kubernetes DFIR](days/day22.md)        |
-| 6    | [Sandboxes](days/day6.md)              | 15   | [Active Directory](days/day15.md)       | 23   | [Hash Cracking](days/day23.md)          |
-| 7    | [AWS Sandboxes](days/day7.md)          | 16   | [Azure Exploitation](days/day16.md)     | 24   | [Communication Protocols](days/day24.md)|
+| 📖  | [README](../README.md)                 | 9    | [Risk Assessment](days/day9.md)         | 17   | [Log Analysis](days/day_17.md)          |
+| 1    | [OPSEC Challenge](days/day1.md)        | 10   | [Phishing](days/day_10.md)              | 18   | [Prompt Injection](days/day_18.md)      |
+| 2    | **Log Analysis**                       | 11   | [Wi-Fi Attacks](days/day_11.md)         | 19   | [Game Hacking](days/day_19.md)          |
+| 3    | [Log Analysis](days/day3.md)           | 12   | [Web Timing Attacks](days/day_12.md)    | 20   | [Traffic Analysis](days/day_20.md)      |
+| 4    | [Atomic Red Team](days/day4.md)        | 13   | [WebSockets](days/day_13.md)            | 21   | [Reverse Engineering](days/day_21.md)   |
+| 5    | [XXE](days/day5.md)                    | 14   | [Certificate Mismanagement](days/day_14.md)| 22 | [Kubernetes DFIR](days/day_22.md)       |
+| 6    | [Sandboxes](days/day6.md)              | 15   | [Active Directory](days/day_15.md)      | 23   | [Hash Cracking](days/day_23.md)         |
+| 7    | [AWS Sandboxes](days/day7.md)          | 16   | [Azure Exploitation](days/day_16.md)    | 24   | [Communication Protocols](days/day_24.md)|
 | 8    | [Shellcodes](days/day8.md)             |      | **Merry SOC-mas!** 🎁✨☃️              |      | 🎄✨🎅                                |
