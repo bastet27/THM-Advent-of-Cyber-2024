@@ -13,29 +13,26 @@ The Advent of Cyber is an annual event hosted by TryHackMe, designed to make lea
 
 | Day  | Challenge                              | Day  | Challenge                               | Day  | Challenge                               |
 |------|----------------------------------------|------|-----------------------------------------|------|-----------------------------------------|
-| 📖  | **README**                             | 11   | [Wi-Fi Attacks](day_11.md)             | 22   | [Kubernetes DFIR](day_22.md)            |
-| 1    | [OPSEC Challenge](day1.md)             | 12   | [Web Timing Attacks](day_12.md)        | 23   | [Hash Cracking](day_23.md)              |
-| 2    | [Log Analysis](day2.md)                | 13   | [WebSockets](day_13.md)                | 24   | Coming Soon!                            |
-| 3    | [Log Analysis](day3.md)                | 14   | [Certificate Mismanagement](day_14.md) | 25   |                                         |
-| 4    | [Atomic Red Team](day4.md)             | 15   | [Active Directory](day_15.md)          | 26   |                                         |
-| 5    | [XXE](day5.md)                         | 16   | [Azure Exploitation](day_16.md)        | 27   |                                         |
-| 6    | [Sandboxes](day6.md)                   | 17   | [Log Analysis](day_17.md)              | 28   |                                         |
-| 7    | [AWS Sandboxes](day7.md)               | 18   | [Prompt Injection](day_18.md)          | 29   |                                         |
-| 8    | [Shellcodes](day8.md)                  | 19   | [Game Hacking](day_19.md)              | 30   |                                         |
-| 9    | [Risk Assessment](day9.md)             | 20   | [Traffic Analysis](day_20.md)          | 31   |                                         |
-| 10   | [Phishing](day_10.md)                  | 21   | [Reverse Engineering](day_21.md)       | ☃️  | ✨🎄🎅🎁✨                              |
+| 📖  | **README**                              | 9    | [Risk Assessment](days/day9.md)         | 17   | [Log Analysis](days/day17.md)           |
+| 1    | [OPSEC Challenge](days/day1.md)        | 10   | [Phishing](days/day10.md)               | 18   | [Prompt Injection](days/day18.md)       |
+| 2    | [Log Analysis](days/day2.md)           | 11   | [Wi-Fi Attacks](days/day11.md)          | 19   | [Game Hacking](days/day19.md)           |
+| 3    | [Log Analysis](days/day3.md)           | 12   | [Web Timing Attacks](days/day12.md)     | 20   | [Traffic Analysis](days/day20.md)       |
+| 4    | [Atomic Red Team](days/day4.md)        | 13   | [WebSockets](days/day13.md)             | 21   | [Reverse Engineering](days/day21.md)    |
+| 5    | [XXE](days/day5.md)                    | 14   | [Certificate Mismanagement](days/day14.md)| 22  | [Kubernetes DFIR](days/day22.md)        |
+| 6    | [Sandboxes](days/day6.md)              | 15   | [Active Directory](days/day15.md)       | 23   | [Hash Cracking](days/day23.md)          |
+| 7    | [AWS Sandboxes](days/day7.md)          | 16   | [Azure Exploitation](days/day16.md)     | 24   | [Communication Protocols](days/day24.md)|
+| 8    | [Shellcodes](days/day8.md)             |      | **Merry SOC-mas!** 🎁✨☃️              |      | 🎄✨🎅                                |
 
----
+## Summary of Challenges 🌟
 
-## Summary of Challenges So Far 🌟
-This year’s Advent of Cyber has explored a wide range of cybersecurity topics, starting with foundational skills and building up to more advanced concepts. In the early days, challenges like the **OPSEC Challenge** (Day 1) and **Phishing** (Day 10) emphasized the importance of secure practices and understanding social engineering tactics. These lessons were complemented by the **Risk Assessment** (Day 9), which focused on identifying and mitigating security threats.
+This year’s Advent of Cyber concluded with a comprehensive exploration of cybersecurity topics, ranging from foundational concepts to advanced techniques. The early days focused on essentials like the **OPSEC Challenge** (Day 1) and **Phishing** (Day 10), which highlighted secure practices and social engineering defenses. These were complemented by **Risk Assessment** (Day 9), focusing on identifying and mitigating security threats.
 
-Technical challenges like **Log Analysis** (Days 2, 3, and 17) introduced tools and techniques for examining logs to uncover malicious activity, while the **Atomic Red Team** (Day 4) provided hands-on experience simulating and defending against common attack patterns. **Sandboxes** (Day 6) and **AWS Sandboxes** (Day 7) delved into analyzing malware in isolated environments, with a focus on securing cloud ecosystems.
+Technical challenges such as **Log Analysis** (Days 2, 3, and 17) provided hands-on experience in uncovering malicious activity through log examination, while **Atomic Red Team** (Day 4) showcased attack simulations and defensive measures. **Sandboxes** (Day 6) and **AWS Sandboxes** (Day 7) explored analyzing malware in isolated environments and securing cloud ecosystems.
 
-Web security was another significant theme, featuring tasks like **XXE (XML External Entity)** (Day 5), **Web Timing Attacks** (Day 12), and **WebSockets** (Day 13), which highlighted vulnerabilities in web applications and how attackers exploit them. Similarly, the challenges on **Shellcodes** (Day 8) and **Prompt Injection** (Day 18) examined exploitation techniques and mitigation strategies.
+Web security was a recurring theme, with challenges like **XXE (XML External Entity)** (Day 5), **Web Timing Attacks** (Day 12), and **WebSockets** (Day 13) shedding light on vulnerabilities in web applications and attacker exploitation methods. Related tasks, such as **Shellcodes** (Day 8) and **Prompt Injection** (Day 18), delved into exploitation techniques and their mitigation.
 
-More advanced exercises included **Active Directory** (Day 15) and **Azure Exploitation** (Day 16), which explored securing enterprise environments and identifying vulnerabilities in cloud platforms. **Game Hacking** (Day 19) offered a unique perspective on security flaws in gaming systems, while **Traffic Analysis** (Day 20) and **Reverse Engineering** (Day 21) honed skills in analyzing network data and binary files.
+Advanced exercises tackled enterprise and cloud security, including **Active Directory** (Day 15) and **Azure Exploitation** (Day 16), which examined securing complex environments. Challenges like **Game Hacking** (Day 19), **Traffic Analysis** (Day 20), and **Reverse Engineering** (Day 21) offered unique perspectives on identifying flaws in gaming systems, analyzing network data, and examining binary files.
 
-Finally, **Kubernetes DFIR** (Day 22) demonstrated digital forensics and incident response in containerized environments, and **Hash Cracking** (Day 23) revisited cryptographic concepts, showcasing how passwords can be recovered from hashed formats.
+The final stretch brought focus to cutting-edge topics like **Kubernetes DFIR** (Day 22), showcasing incident response in containerized environments, and **Hash Cracking** (Day 23), which revisited cryptographic principles to demonstrate how passwords can be recovered from hashes. The challenge concluded with **Communication Protocols** (Day 24), where participants analyzed MQTT traffic to uncover malicious commands, emphasizing IoT security and protocol analysis.
 
-Together, these challenges have provided an engaging mix of theoretical learning and practical application, offering a comprehensive cybersecurity experience.
+Together, these challenges provided an engaging blend of theoretical knowledge and practical skills, culminating in a comprehensive cybersecurity learning experience. The Advent of Cyber 2024 has been an incredible journey of growth and exploration in the world of cybersecurity!
