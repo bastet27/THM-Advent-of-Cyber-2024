@@ -1,1 +1,0 @@
-create day 24
